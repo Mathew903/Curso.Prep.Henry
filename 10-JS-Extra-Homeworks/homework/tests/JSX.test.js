@@ -68,7 +68,7 @@ describe('sortArray(array)', function() {
 
 describe('buscoInterseccion(arreglo1, arreglo2)', function() {
   it('should return the common elements of the array, and in case they do not match, return an empty array', function() {
-    expect(buscoInterseccion([1, 2 , 3], [1, 5, 8 , 3])).toEqual([1, 3]);
+    expect(buscoInterseccion([1, 2, 3], [1, 5, 8, 3])).toEqual([1, 3]);
     expect(buscoInterseccion([7 , 23, 4], [23, 70])).toEqual([23]);
     expect(buscoInterseccion([1, 20 , 3], [22, 5, 7])).toEqual([]);
   });
